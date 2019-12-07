@@ -27,7 +27,7 @@ We use python 3.6.2. Pytorch 1.01 during training and testing.
 Validate
 -------
 The first step is to download the 300W test data, URL:https://pan.baidu.com/s/1J0ggq8sRag6KLSIQ3DUOjw  
-The second step is to add and the path of the test data MED-UN_model to the validate.py file  
+The second step is to add the path of the test data and MED-UN_model to the validate.py file  
 The third step is to run the program: python validate.py --gpu_id 0 --exp_id cu-net-4 --bs 1  
 Note: When validating the challenge set, the visualization results are disordered due to the mismatch between the total picture order verified and the test picture order loading, but the visualization results of the challenge subset can be seen on the full set.  
 
